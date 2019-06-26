@@ -1,0 +1,119 @@
+body{
+    background-image: url(assets/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pageEntiere{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    margin: -8px;
+}
+.barreDeTache{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 10%;
+    height: 100%;
+}
+.Photo{
+    width:100%;
+    height:20%;
+    background-image: url(assets/IMG_20181114_103534.jpg);
+    background-size: cover;
+}
+.PhilipeWatson{
+    width: 100%;
+    height: 20/3%;
+    background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 80%;
+}
+.onglets{
+    width:100%;
+    height:5%;
+    background-color: black;
+}
+h2{
+    
+    text-align: center;
+    color: aliceblue;
+    font-size: 60%;
+}
+.Copyright{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width:100%;
+    height:50%;
+    background-color: black
+}
+.itemCopyright{
+    width:100%;
+    height:10%;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 60%;
+}
+.fenetrePrincipale{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+}
+.PHILIPWATSON{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+}
+.itemPHILIPWATSON{
+    width: 47%;
+    height: 100%;
+}
+h3{
+    color: aliceblue;
+    text-align: end;
+    padding-top: 200px;
+    font-size: 350%;
+}
+h4{
+    color: cornflowerblue;
+    text-align: left;
+    padding-top: 183px;
+    font-size: 350%;
+}
+.IamAWebDeveloper{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-start;
+}
+.IamA{
+    width:48%;
+    height:100%;
+}
+.WebDeveloper{
+    width: 52%;
+    height:100%;
+}
+article{
+    color: aliceblue;
+    text-align: end;
+    font-size:200%;
+}
+h6{
+    color: aliceblue;
+    text-decoration: underline cornflowerblue;
+    font-size: 200%;
+    text-align: start;
+    margin:-1px;
+
+}
